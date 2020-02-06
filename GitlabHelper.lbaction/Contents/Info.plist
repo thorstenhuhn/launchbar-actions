@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIconFile</key>
+	<string>gitlab.png</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.me.thorstenhuhn.LaunchBar.action.GitlabHelper</string>
+	<key>CFBundleName</key>
+	<string>Gitlab Helper</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>LBAbbreviation</key>
+	<string>gl</string>
+	<key>LBDebugLogEnabled</key>
+	<true/>
+	<key>LBDescription</key>
+	<dict>
+		<key>LBAuthor</key>
+		<string>Thorsten Huhn</string>
+		<key>LBSummary</key>
+		<string>Browse Gitlab EE projects</string>
+	</dict>
+	<key>LBMinimumLaunchBarVersion</key>
+	<integer>6134</integer>
+	<key>LBScripts</key>
+	<dict>
+		<key>LBDefaultScript</key>
+		<dict>
+			<key>LBKeepWindowActive</key>
+			<true/>
+			<key>LBResultType</key>
+			<string>unknown</string>
+			<key>LBReturnsResult</key>
+			<true/>
+			<key>LBScriptName</key>
+			<string>default.py</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
